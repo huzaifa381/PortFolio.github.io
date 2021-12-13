@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nvb{
+    background: rgb(58, 58, 119);
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+}
+.navbar-brand{
+    font-style: italic;
+}
+
+#nvb a{
+    color: white;
+}
+#navbarSupportedContent a{
+    padding-right: 40px;
+}
+#fl{
+    background: url('wpllll.jpg') no-repeat;
+    background-size: cover;
+    height: 92vh;
+    text-align: center;
+}
+#fl h1{
+    font-size: 50px;
+}
+#fl h1,a{
+    padding-top: 180px;
+}
+#fl button{
+    margin: 5px;
+    padding: 10px;
+}
+#About{
+    margin-top: 20px;
+}
+#About #h1{
+    text-align: center;
+}
+#Abouthalf{
+    padding: 20px 10px 20px 30px;
+}
+#services{
+    margin-top: 30px;
+}
+#serviceshalf{
+    padding: 20px 40px;
+}
+#services #h{
+    text-align: center;
+}
+@media only screen and (max-width:991px){
+   
+    #serviceshalf #r1,#r2,#r3{
+        padding: 10px;
+    }
+    #serviceshalf #r1,#r2,#r3 #c1{
+        margin: auto;
+        width: auto;
+        padding: auto;
+    }
+    #pft #p1{
+        padding: 15px;
+        margin: auto;
+        width: auto;
+    }
+    #footer #f1{
+        padding: 8px;
+    }
+}
+@media only screen and (min-width:768px){
+
+    #serviceshalf #r1,#r2,#r3{
+        padding: 10px;
+    }
+    #pft #p1{
+        padding: 15px;
+    }
+    #footer #f1{
+        padding: 8px;
+    } 
+}
+#contact{
+    margin-top: 30px;
+}
+#pft{
+    margin-top: 20px;
+}
+#footer{
+    padding: 20px;
+    background: rgb(58, 58, 119);
+    text-align: center;
+    color: white;
+}
+
+
